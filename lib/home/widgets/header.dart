@@ -1,3 +1,4 @@
+import 'package:app_test2/model/game.dart';
 import 'package:flutter/material.dart';
 
 class HeaderSection extends StatelessWidget {

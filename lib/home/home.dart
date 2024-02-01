@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF36D013),
+      backgroundColor: Color(0xFFB522D9),
       body: SingleChildScrollView(
         child: Stack(
           children: [
@@ -65,7 +65,7 @@ class HomePage extends StatelessWidget {
             topRight: Radius.circular(30),
           ),
           child: BottomNavigationBar(
-            selectedItemColor: Color(0xFF36D013),
+            selectedItemColor: Color(0xFFB522D9),
             selectedFontSize: 12,
             unselectedFontSize: 12,
             unselectedItemColor: Colors.grey.withOpacity(0.7),
@@ -84,7 +84,7 @@ class HomePage extends StatelessWidget {
                   const Icon(
                     Icons.home_rounded,
                     size: 30,
-                    color: Colors.green,
+                    color: Colors.purple,
                   ),
                 ),
               ),
